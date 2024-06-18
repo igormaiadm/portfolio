@@ -157,11 +157,11 @@
   /**
    * Skills animation
    */
-  let skilsContent = select('.skills-content');
-  if (skilsContent) {
+  let skillsContent = select('.skills-content');
+  if (skillsContent) {
     new Waypoint({
-      element: skilsContent,
-      offset: '80%',
+      element: skillsContent,
+      offset: '120%',
       handler: function(direction) {
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
