@@ -167,13 +167,10 @@ h6 {
 }
 
 #preloader:before {
-  content: "";
+  content: url('../img/apple-touch-icon.png');
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -959,18 +956,6 @@ section {
   fill: #47aeff;
 }
 
-.services .iconbox-orange i {
-  color: #10ee00;
-}
-
-.services .iconbox-orange:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-orange:hover .icon path {
-  fill: #10ee00;
-}
-
 .services .iconbox-pink i {
   color: #fb338a;
 }
@@ -1019,6 +1004,18 @@ section {
   fill: #11dbcf;
 }
 
+.services .iconbox-orange i {
+  color: #10ee00;
+}
+
+.services .iconbox-orange:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-orange:hover .icon path {
+  fill: #10ee00;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1065,16 +1062,6 @@ section {
 .contact .info .phone:hover i {
   background: #0563bb;
   color: #fff;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 /*--------------------------------------------------------------
