@@ -960,7 +960,7 @@ section {
 }
 
 .services .iconbox-green i {
-  color: #11ff00;
+  color: #10ee00;
 }
 
 .services .iconbox-green:hover .icon i {
@@ -968,7 +968,7 @@ section {
 }
 
 .services .iconbox-green:hover .icon path {
-  fill: #11ff00;
+  fill: #10ee00;
 }
 
 .services .iconbox-pink i {
