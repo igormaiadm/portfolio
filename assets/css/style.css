@@ -959,15 +959,15 @@ section {
   fill: #47aeff;
 }
 
-.services .iconbox-green i {
+.services .iconbox-orange i {
   color: #10ee00;
 }
 
-.services .iconbox-green:hover .icon i {
+.services .iconbox-orange:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-green:hover .icon path {
+.services .iconbox-orange:hover .icon path {
   fill: #10ee00;
 }
 
