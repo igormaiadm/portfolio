@@ -161,7 +161,7 @@
   if (skillsContent) {
     new Waypoint({
       element: skillsContent,
-      offset: '250%',
+      offset: '200%',
       handler: function(direction) {
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
